@@ -143,12 +143,44 @@ void render(Model* model, IShader& shader, TGAImage& image, float* zbuffer) {
     }
 }
 
+void render_texture_background(TGAImage& image, Model* model) {
+    if (!model->has_texture_loaded()) {
+        for (int i = 0; i < image.get_width(); i++) {
+            for (int j = 0; j < image.get_height(); j++) {
+                image.set(i, j, TGAColor(50, 50, 50, 255));
+            }
+        }
+        return;
+    }
+
+    TGAImage texture = model->get_texture();
+
+    for (int i = 0; i < image.get_width(); i++) {
+        for (int j = 0; j < image.get_height(); j++) {
+            float u = static_cast<float>(i) / image.get_width();
+            float v = static_cast<float>(j) / image.get_height();
+
+            TGAColor tex_color = model->get_texture_color(u, v);
+
+            unsigned char gray = static_cast<unsigned char>(
+                0.299f * tex_color.r + 0.587f * tex_color.g + 0.114f * tex_color.b
+                );
+
+            image.set(i, j, TGAColor(gray, gray, gray, 255));
+        }
+    }
+}
+
 int main(int argc, char** argv) {
     if (2 == argc) {
         model = new Model(argv[1]);
     }
     else {
         model = new Model("african_head.obj");
+    }
+
+    if (!model->load_texture("texture.tga")) {
+        std::cerr << "Failed to load background texture" << std::endl;
     }
 
     Camera camera(Vec3f(1, 1, 3), Vec3f(0, 0, 0), Vec3f(0, 1, 0));
@@ -164,16 +196,22 @@ int main(int argc, char** argv) {
 
     TGAImage image(width, height, TGAImage::RGB);
 
+    std::cerr << "Rendering background texture..." << std::endl;
+    render_texture_background(image, model);
+
+    std::cerr << "Rendering 3D model..." << std::endl;
     PhongShader shader(model);
     shader.uniform_M = Viewport * Projection * ModelView;
     shader.uniform_MIT = (Viewport * Projection * ModelView).invert_transpose();
-    shader.uniform_light_dir = Vec3f(0, 0, -1).normalize();
+    shader.uniform_light_dir = Vec3f(1, 0, -1).normalize();
     shader.uniform_eye_pos = camera.eye;
 
     render(model, shader, image, zBuffer);
 
     image.flip_vertically();
     image.write_tga_file("output.tga");
+
+    std::cerr << "Render complete!" << std::endl;
 
     delete model;
     delete[] zBuffer;
