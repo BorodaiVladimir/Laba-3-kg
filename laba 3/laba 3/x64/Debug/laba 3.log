@@ -1,7 +1,127 @@
 ﻿  laba3.cpp
-C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(27,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(49,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(50,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(51,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(52,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(32,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244: =: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(46,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244: =: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(47,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244: =: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(48,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,59): warning C4244: аргумент: преобразование "int" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,59): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,59): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,59): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,59): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,35): warning C4244: аргумент: преобразование "int" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,35): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,35): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,35): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(62,35): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244: =: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(74,23): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244: =: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(75,27): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,39): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(79,29): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,39): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(78,29): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,65): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244: аргумент: преобразование "t" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         and
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:             t=int
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(77,55): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,83): warning C4244: аргумент: преобразование "double" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,83): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,83): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,83): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,83): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,57): warning C4244: аргумент: преобразование "double" в "t", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,57): warning C4244:         with
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,57): warning C4244:         [
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,57): warning C4244:             t=float
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(124,57): warning C4244:         ]
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(134,83): warning C4244: аргумент: преобразование "float" в "unsigned char", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(134,66): warning C4244: аргумент: преобразование "float" в "unsigned char", возможна потеря данных
+C:\Users\Veighteen\source\repos\laba 3\laba 3\laba3.cpp(134,49): warning C4244: аргумент: преобразование "float" в "unsigned char", возможна потеря данных
+  model.cpp
+  Создание кода...
   laba 3.vcxproj -> C:\Users\Veighteen\source\repos\laba 3\x64\Debug\laba 3.exe
