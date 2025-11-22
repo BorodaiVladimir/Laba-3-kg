@@ -29,6 +29,7 @@
   <ItemGroup>
     <ClInclude Include="geometry.h" />
     <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
     <ClInclude Include="tgaimage.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
